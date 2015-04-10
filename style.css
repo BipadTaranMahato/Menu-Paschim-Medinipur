@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top{
+  margin: 0px;
+  padding: 8px;
+  height: 30px;
+  font-size: small;
+  border-bottom: 1px solid #5b8829;
+  background: none repeat scroll 0 0 #333;
+  color: #f2f7eb;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.logo{
+  position: absolute;
+  float: left;
+  top: 30px;
+  margin: 20px;
+  z-index: 50;
+}
+
+.site-name,
+.site-name-light{
+  position: absolute;
+  float: left;
+  top: 60px;
+  left: 80px;
+  z-index: 50;
+}
+
+
+.nav_menu {
+  position: absolute;
+  display: block;
+  height: 80px;
+  width: 100%;
+  background: transparent;
+  margin-top: 20px;
+  padding-left: 600px;
+  /*z-index: -1;*/
+}
+
+.nav_menu li {
+  list-style-type: none;
+  text-decoration: none;
+  vertical-align: middle;
+  height: 50px;
+  display: inline-block;
+}
+
+.nav_menu_link {
+  color: black;
+  font-size: 14px;
+  font-family: Arial;
+  /*height: 20px;*/
+  /*vertical-align: baseline;*/
+  /*position: relative;*/
+  display: block;
+  padding: 6px 14px;
+}
+
+.nav_menu_link:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  border-radius: 100px;
+  transition: all .2s;
+  }
+
+.nav_menu_link:hover .arrow.down {
+  border-top-color: #FFF;
+}
+
+#content1:hover {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  position: absolute;
+ }
+#content2:hover {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  position: absolute;
+}
+#content3:hover {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  position: absolute;
+}
+#content1, #content2, #content3 {
+  width: 100%;
+  height: auto;
+  background: none repeat scroll 0 0 lightblue;
+  display: none;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  right: 0px;
+}
+
+.slider{
+  position: relative;
+  height: 350px;
+  background: url("../img/slide_back.jpg");
+  z-index: -200;
+}
+.slider-overlay{
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  z-index: -200;
+}
+
+.content {
+
+  border-bottom: 5px #808080;
+}
+
+
