@@ -9,7 +9,7 @@ $('.nav').hover(
     hovered = this;
     timeout = setTimeout(function(){
       if($(hovered).hasClass('nav_menu_link_drop')){
-        /*$('.content').css('z-index','-1');*/
+        $('.content').css('z-index',-1);
         $(hovered).next('.content').css('z-index','-1');
         $(hovered).next('.content').slideDown('slow');
         timeout = setTimeout(function(){
@@ -50,7 +50,7 @@ $('.nav_menu').hover(
   }
 );
 
-
+/*---------------------------------------------pampa------------------------------------------------------------------------*/
 $(function() {
   $(".nav_menu").before('<div class="menu">&#9776;</div>');
   $(".menu").hide();
